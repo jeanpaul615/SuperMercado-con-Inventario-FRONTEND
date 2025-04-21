@@ -1,70 +1,108 @@
-# Getting Started with Create React App
+# 🛒 Supermercado con Inventario - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este proyecto es la interfaz de usuario de un sistema de gestión de inventario para un supermercado. Desarrollado con **React** y **Tailwind CSS**, ofrece una experiencia moderna, responsiva y eficiente para la visualización y administración de productos.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🌟 **Descripción**
 
-### `npm start`
+El frontend de **Supermercado con Inventario** permite a los usuarios interactuar con el sistema de inventario de manera fácil y rápida. Integra un diseño minimalista y moderno para facilitar la gestión de productos, con funcionalidades como:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Visualización de productos disponibles.
+- Búsqueda y filtrado dinámico.
+- Gestión del inventario (agregar, editar y eliminar productos).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Este proyecto está diseñado para integrarse con un backend que maneje la lógica y los datos del inventario.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ✨ **Características**
 
-### `npm run build`
+- **Interfaz moderna**: Diseño responsivo y limpio gracias a **Tailwind CSS**.
+- **Componentes reutilizables**: Arquitectura basada en componentes de **React**.
+- **Búsqueda en tiempo real**: Filtrado dinámico de productos.
+- **Integración con backend**: Preparado para conectarse a una API REST o GraphQL.
+- **Fácil de personalizar**: Código modular y bien documentado.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 **Cómo Empezar**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Sigue los pasos a continuación para configurar y ejecutar el proyecto en tu máquina local:
 
-### `npm run eject`
+### 1. **Clona este repositorio**
+   ```bash
+   git clone https://github.com/jeanpaul615/SuperMercado-con-Inventario-FRONTEND.git
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 2. **Accede al directorio del proyecto**
+   ```bash
+   cd SuperMercado-con-Inventario-FRONTEND
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. **Instala las dependencias**
+   Asegúrate de tener **Node.js** y **npm** instalados en tu sistema, luego ejecuta:
+   ```bash
+   npm install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 4. **Ejecuta el proyecto**
+   Inicia el servidor de desarrollo:
+   ```bash
+   npm start
+   ```
+   El proyecto estará disponible en `http://localhost:3000`.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🛠️ **Requisitos**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Node.js** v14 o superior.
+- **npm** o **yarn**.
+- Navegador moderno (Google Chrome, Firefox, Edge, etc.).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 📂 **Estructura del Proyecto**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **src/components/**: Contiene los componentes reutilizables de React.
+- **src/pages/**: Define las páginas principales del sistema.
+- **src/styles/**: Estilos personalizados utilizando **Tailwind CSS**.
+- **src/utils/**: Funciones auxiliares y lógica compartida.
+- **public/**: Archivos públicos como imágenes y el archivo `index.html`.
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🎨 **Tecnologías Utilizadas**
 
-### Making a Progressive Web App
+- **React**: Biblioteca para construir interfaces de usuario dinámicas.
+- **Tailwind CSS**: Framework CSS para diseños rápidos y consistentes.
+- **Vite o CRA (Create React App)**: Herramienta para desarrollo rápido (según la configuración inicial).
+- **JavaScript**: Lógica principal del proyecto.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 📸 **Capturas de Pantalla**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+> *(Agrega aquí capturas de pantalla o gifs del diseño y las funcionalidades del sistema para que los usuarios puedan visualizar el proyecto.)*
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🤝 **Contribuciones**
 
-### `npm run build` fails to minify
+¡Las contribuciones son bienvenidas! Si encuentras errores, tienes ideas para nuevas funcionalidades o mejoras, sigue estos pasos:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Realiza un fork del repositorio.
+2. Crea una nueva rama para tus cambios:
+   ```bash
+   git checkout -b feature/nueva-funcionalidad
+   ```
+3. Realiza tus cambios y haz un commit:
+   ```bash
+   git commit -m "Agrega nueva funcionalidad"
+   ```
+4. Envía tus cambios:
+   ```bash
+   git push origin feature/nueva-funcionalidad
+   ```
+5. Abre un [pull request](https://github.com/jeanpaul615/SuperMercado-con-Inventario-FRONTEND/pulls).
