@@ -83,13 +83,6 @@ Sigue los pasos a continuación para configurar y ejecutar el proyecto en tu má
 - **Vite o CRA (Create React App)**: Herramienta para desarrollo rápido (según la configuración inicial).
 - **JavaScript**: Lógica principal del proyecto.
 
----
-
-## 📸 **Capturas de Pantalla**
-
-> *(Agrega aquí capturas de pantalla o gifs del diseño y las funcionalidades del sistema para que los usuarios puedan visualizar el proyecto.)*
-
----
 
 ## 🤝 **Contribuciones**
 
