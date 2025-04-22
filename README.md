@@ -1,3 +1,6 @@
+![image](https://github.com/user-attachments/assets/1c094cf9-aafc-4784-bf35-368c5b27b6a2)
+
+
 # 🛒 Supermercado con Inventario - Frontend
 
 Este proyecto es la interfaz de usuario de un sistema de gestión de inventario para un supermercado. Desarrollado con **React** y **Tailwind CSS**, ofrece una experiencia moderna, responsiva y eficiente para la visualización y administración de productos.
